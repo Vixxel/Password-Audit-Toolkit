@@ -1,0 +1,27 @@
+Password-Audit-Toolkit/
+
+modules/
+│
+├── password_strength.py
+├── entropy.py
+├── password_generator.py
+├── dictionary_check.py
+├── statistics.py
+├── hash_utils.py
+├── export_utils.py
+├── html_report.py
+└── pdf_report.py
+
+wordlists/
+│
+├── common_passwords.txt
+├── top100.txt
+└── top1000.txt
+
+exports/        ← ignored
+
+README.md
+LICENSE
+requirements.txt
+.gitignore
+main.py
